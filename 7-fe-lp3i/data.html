@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Input Data Mahasiswa | C&P </title>
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="data">
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">C&P</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html#home" class="nav__link active-link">Beranda</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">Tentang</a></li>
+                    <li class="nav__item"><a href="index.html#mhs" class="nav__link">Mahasiswa</a></li>
+                    <li class="nav__item"><a href="index.html#contact" class="nav__link">Kontak</a></li>
+                    <li class="nav__item"><a href="login.html" class="nav__link">Login</a></li>
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="section bd-container">
+            <div class="container-data">
+                <div class="section-title">Input Data Mahasiswa</div>
+                <div class="content">
+                    <form action="#">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">NIM</span>
+                                <input type="text" placeholder="Masukkan NIM Mahasiswa" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Nama Lengkap</span>
+                                <input type="text" placeholder="Masukkan Nama Lengkap" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Email</span>
+                                <input type="text" placeholder="Masukkan Email" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">No Telfon</span>
+                                <input type="text" placeholder="Masukkan Nomer Telfon" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Password</span>
+                                <input type="text" placeholder="Masukkan Password" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Konfirmasi Password</span>
+                                <input type="text" placeholder="Ulangi Password" required>
+                            </div>
+                        </div>
+                        <div class="gender-details">
+                            <input type="radio" name="gender" id="dot-1">
+                            <input type="radio" name="gender" id="dot-2">
+                            <span class="gender-title">Jenis Kelamin</span>
+                            <div class="category">
+                                <label for="dot-1">
+                                    <span class="dot one"></span>
+                                    <span class="gender">Laki-Laki</span>
+                                </label>
+                                <label for="dot-2">
+                                    <span class="dot two"></span>
+                                    <span class="gender">Perempuan</span>
+                                </label>
+                            </div>
+                        </div>
+                        <a href="#" class="button">Input Data</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
